@@ -1,0 +1,39 @@
+.text-input-wrapper {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 10px 40px 10px 10px;
+  height: 150px;
+  position: relative;
+}
+
+.text-input {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  width: 100%;
+  resize: none;
+  overflow: auto hidden;
+  height: 100%;
+  font-size: 16px;
+}
+.text-input:focus {
+  outline: none;
+}
+
+.clear-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  right: 5px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.clear-icon:hover {
+  background-color: #aaaaaa;
+  cursor: pointer;
+}
